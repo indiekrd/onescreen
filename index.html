@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontsstylesheet.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header-container">
+            <div class="logo-line">
+                <div class="logo-container">
+                    <img src="assets/img/logo.svg" alt="logo" class="logo">
+                </div>
+                <div class="contacts-container">
+                    <div class="messengers-container">
+                        <a><img src="/assets/img/whatsapp.svg" alt="whatsapp"></a>
+                        <a><img src="/assets/img/telegram.svg" alt="telegram"></a>
+                    </div>
+                    <div class="phone-container">
+                        <a href="tel:+79002550309"> +7 (900) 255-03-09</a>
+                    </div>
+                </div>
+            </div>
+            <div class="button-line">
+                <button class="call-button">Заказать звонок</button>
+            </div>
+        </header>
+        <main>
+            <span class="main-title">Квартиры на Юге России</span>
+            <ul class="advantages">
+                <li class="advantages-item">
+                    <span class="stats">27</span>
+                    <p class="advantages-text">особенных проектов реализовали в лучших локациях ЮФО</p>
+                </li>
+                <li class="advantages-item">
+                    <span class="stats">1000</span>
+                    <p class="advantages-text">лучших специалистов со всей России работают в нашей команде</p>
+                </li>
+                <li class="advantages-item">
+                    <span class="stats">450</span>
+                    <p class="advantages-text">иновационных решений внедрили для улучшения качества жизни горожан</p>
+                </li>
+                <li class="advantages-item">
+                    <img src="/assets/img/book.png" class='book' alt="">
+                </li>
+            </ul>
+            <form class="main-form" id="main-form">
+                <span class="form-text">Скачайте каталог всех проектов от Федерального Девелопера «Неометрия»</span>
+                <div class="main-form__inputs">
+                    <input type="tel" placeholder="Ваш телефон" name="tel" required>
+                    <button type="submit" onclick="window.open('/assets/Neometria_presentation.pdf')" class="form-submit_1" disabled>Скачать каталог</button>
+                </div>
+            </form>
+            
+        </main>
+    </div>
+    <script src="/assets/main.js"></script>
+</body>
+</html>
+
